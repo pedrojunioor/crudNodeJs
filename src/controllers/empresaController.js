@@ -1,4 +1,4 @@
-const db = require('../db')
+const db = require('../repo/dbEmpresa')
 
 module.exports ={
     async cadastrarEmpresa (req,res){
